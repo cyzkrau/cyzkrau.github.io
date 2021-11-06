@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>陈雨竹的简历</title>
+    <link rel="shortcut icon" href="cv-style/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="cv-style/css/typo.css">
+    <link rel="stylesheet" type="text/css" href="cv-style/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="cv-style/css/index.css">
+
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed() {
+                    var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                    document.getElementById('side').style.position = value;
+                }
+            </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <img class="avatar" src="cv-style/images/qdh_20.png">
+                </section>
+
+                <h1 class="name"><strong>USTC</strong></h1>
+                <h4 class="info-job"><strong>PB1900</strong> </h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>姓名</label>
+                        <span>陈雨竹</span>
+                    </li>
+                    <li>
+                        <label>性别</label>
+                        <span>男</span>
+                    </li>
+                    <li>
+                        <label>出生日期</label>
+                        <span>2002.5.25</span>
+                    </li>
+                    <li>
+                        <label>科研兴趣</label>
+                        <span>机器学习 量子计算 计算机视觉</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label><i class="fa fa-qq"></i></label>
+                        <a target="_blank">1591700534</a>
+                    </li>
+                    <li>
+                        <label><i class="fa fa-wechat"></i></label>
+                        <a target="_blank">cyz-krau</a>
+                    </li>
+                    <li>
+                        <label><i class="fa fa-telegram"></i></label>
+                        <a target="_blank">@cyzkrau</a>
+                    </li>
+                    <li>
+                        <label><i class="fa fa-envelope"></i></label>
+                        <a href="mailto:cyzkrau@mail.ustc.edu.cn" target="_blank">cyzkrau@mail.ustc.edu.cn</a>
+                    </li>
+                    <li>
+                        <label><i class="fa fa-github" aria-hidden="true"></i></label>
+                        <a href="https://github.com/cyzkrau" target="_blank">github.com/cyzkrau</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <p>本科学校：<mark>中国科学技术大学</mark></p>
+                        <p>本科学院：<mark>少年班学院</mark></p>
+                        <p>本科专业：<mark>信息与计算科学</mark></p>
+                        <p>辅修专业：<mark>AI+X微专业</mark></p>
+                        <p>时间：<mark> 2019.9-2022.7</mark></p>
+                    </li>
+                </ul>
+            </section>
+            <!-- 个人技能 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>Python</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>C++</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Linux</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>LaTeX</label>
+                        <progress value="90" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="main">
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>专业能力
+                </h2>
+                <hr />
+                <p>熟悉Linux命令，并在平时的学习生活中使用Ubuntu20.04</p>
+                <p>习惯使用LaTeX，常用<a href="https://github.com/ElegantLaTeX">ElegantLaTeX</a>撰写报告或整理知识点，部分作品可见下面的<a
+                        href="#repo">报告</a>和<a href="#selfwork">个人作品</a></p>
+                <p>掌握Python语法，熟悉大部分流行库(numpy,opencv,matplotlib等)的基本功能，习惯去官方文档查需要的API</p>
+                <p>熟悉模式识别的基本技术(FNN,CNN,RNN等)以及在PyTorch上的实现方法，了解部分计算机视觉任务(图像分类,语义分割,超分辨率等)的深度学习解决方案</p>
+                <p>掌握经典的线性代数问题的数值解决方案、部分数值PDE解法，以及它们的分析想法</p>
+            </section>
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>工作经历
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span>【实习】北京迈格威科技有限公司</span>
+                            <time>2021.7.26-2021.8.20</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li><i class="fa fa-users" aria-hidden="true"></i>
+                                [实习部门]：算法开发产品部-业务研发中心-框架部-基础架构组
+                            </li>
+                            <li>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                [贡献]<br />
+                                <p>
+                                    &emsp;1、参与复现<a href="https://arxiv.org/abs/1904.00420" target="_blank">Single Path
+                                        One-Shot NAS</a>论文，并在复现结果上增加单机多卡的配置<br />
+                                    &emsp;2、编写megengine的ResNet_v2模型，并测试v1和v2在ImageNet数据集上训练的吞吐量<br />
+                                    &emsp;3、为megengine的ShuffleNet模型增加SE块<br />
+                                    &emsp;4、解决不同megengine版本的缓存不兼容问题
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>项目经历
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3><span>数字图像处理(正在更新)</span></h3>
+                        使用Python的numpy和opencv的辅助功能实现部分图像处理任务，部分代码在项目<a
+                            href="https://github.com/cyzkrau/DIP">DIP</a>开源，目前包括：
+                        <ul class="info-content">
+                            <li>
+                                复现论文<a href="https://www.cs.tau.ac.il/~turkel/imagepapers/ColorTransfer.pdf">Color
+                                    Transfer
+                                    between Images</a>(色彩转化)，撰写<a
+                                    href="http://home.ustc.edu.cn/~cyzkrau/doc/Color-Transfer.pdf" id="repo">报告</a>
+                            </li>
+                            <li>
+                                实现Image Warping，使用RBF和IDW算法，撰写<a
+                                    href="http://home.ustc.edu.cn/~cyzkrau/doc/Image-Warping.pdf">报告</a>
+                            </li>
+                            <li>
+                                复现论文<a href="https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf">Poisson Image
+                                    Editing</a>(图像融合)，撰写<a
+                                    href="http://home.ustc.edu.cn/~cyzkrau/doc/Poisson-Editing.pdf">报告</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>个人作品<a id="selfwork"></a>
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3><span>课程复习文档</span></h3>
+                        <ul class="info-content">
+                            <li>
+                                数理统计<a
+                                    href="http://home.ustc.edu.cn/~cyzkrau/doc/sltj.pdf">复习文档</a>，基于教材：韦来生《数理统计(第二版)》科学出版社
+                            </li>
+                            <li>
+                                微分几何<a
+                                    href="http://home.ustc.edu.cn/~cyzkrau/doc/wfjh.pdf">复习文档</a>，基于教材：彭家贵、陈卿《微分几何》高等教育出版社
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-bars" aria-hidden="true"></i>兴趣爱好
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3><span>文体方面</span></h3>
+                        <ul class="info-content">
+                            <li>长跑：参加过铜陵半程马拉松(2019.11.24)、千岛湖马拉松(2020.12.06)</li>
+                            <li>长途骑行：往返合肥和滁州一次(100km,2020.10)、环巢湖一次(180km,2021.10.01)</li>
+                            <li>健身、羽毛球、乒乓球、保龄球等</li>
+                            <li>中提琴、交响乐等</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </article>
+
+
+    <footer class="footer">
+        <p> <b>感谢您花时间阅读我的简历，期待能有机会和您共事</b> </p>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li>
+                <a href="https://github.com/cyzkrau" target="_blank">Github</a>
+            </li>
+            <li>
+                <a href="http://home.ustc.edu.cn/~cyzkrau/out.html" target="_blank">Navigation</a>
+            </li>
+        </ul>
+    </aside>
+
+    <script src="./cv-style/js/index.js" type="text/javascript"></script>
+
+</body>
+
+</html>
